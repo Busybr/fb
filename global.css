@@ -18,6 +18,14 @@ body {
   transform: translate(-50%, -50%);
 }
 
+.error-message {
+  color: brown;
+  font-size: 0.9em;
+  margin-top: 3px;
+  margin-bottom: 6px;
+  display: none;
+}
+
 .flex-div {
   display: flex;
   justify-content: space-evenly;
@@ -26,6 +34,11 @@ body {
 
 .name-content {
   margin-right: 7rem;
+}
+
+.logo-content {
+  color: rgb(28, 30, 33);
+  font-weight: 400;
 }
 
 .name-content .logo {
